@@ -12,8 +12,8 @@
 9. url에 존재하는 정보들을 fetch()로 가져오기.
 10. async / await 문법 => promise / then 과 유사한 용도로 사용 가능하다.   *추가 학습 필요함.*
 11. 간단하게나마 구글링을 통해 css를 적용해봄.
-12. gh-pages 를 통한 작업물 배포 ( package.json 에 homepage를 추가하고, script에서 deploy, predeploy 명령어를 작성함.
-      deploy를 하기 위해선 npm run build를 하는 과정이 필요하고 predeploy는 build 없이 deploy 하는 상황을 방지하고자 build 되어있지 않은 경우 deploy를 입력해도 predeploy가 실행되도록 하였음.
+12. gh-pages 를 통한 작업물 배포 : package.json 에 homepage를 추가하고, script에서 deploy, predeploy 명령어를 작성함.
+      deploy를 하기 위해선 npm run build를 하는 과정이 필요하고 predeploy는 build 없이 deploy 하는 상황을 방지하고자 deploy를 입력해도 predeploy가 먼저 실행되어 build를 실행 후 deploy가 실행되도록 하였음.
 
 
 *gh-pages 는 의도한 대로 작동하지 않아 다른 배포방식을 알아보거나 문제해결 필요해보임
