@@ -15,5 +15,6 @@
 
 
 프로젝트 도중 겪은 문제점)
+
 Home 화면에서 Detail 화면으로 넘어가는 경우 url은 바뀌나 화면은 바뀌지 않는 현상 > <Route path="/'> 를 <Route exact path="/"> 로 지정하여 해결함
 Detail 화면에서 Home 화면으로 이동(뒤로가기) 하는 경우 uncaught Runtime Error 에러메시지가 뜸 > useEffect 안의 cleanUp 코드를 명시해주어 해결함
